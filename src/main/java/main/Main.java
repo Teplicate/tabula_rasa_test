@@ -14,13 +14,13 @@ public class Main {
         System.out.println("Enter length and width of array");
         int length = scanner.nextInt();
         int width = scanner.nextInt();
+        System.out.println("Creating " + length + " x " + width + " space");
         Space space = new Space(length, width);
         space.intializeSpace();
         space.showSpace();
         Finder finder = new Finder(space.getSpace());
         finder.showCopy();
         finder.countIsland();
-
     }
 
 }
