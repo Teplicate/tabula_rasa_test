@@ -1,6 +1,5 @@
 package main;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
 import creator.Space;
 import finder.Finder;
 

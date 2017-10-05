@@ -1,9 +1,8 @@
 package finder;
-
-import creator.Space;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
+/*
+Методы класса  реализуют копирование исходного массива в целях сохранения первичного состояния
+и подсчет количества островов в массиве
+ */
 
 public class Finder {
 

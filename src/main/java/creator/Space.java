@@ -1,7 +1,9 @@
 package creator;
 
 import java.util.Random;
-
+/*
+Класс для создания двумерного массива, заполненного нулями и единицами
+ */
 public class Space
 {
 
