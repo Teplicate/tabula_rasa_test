@@ -16,8 +16,7 @@ public class Finder {
     public boolean findIsland(int x, int y)
     {
         boolean isIsland = false;
-        if (x < 0 || x >= copiedSpace.length) return false;
-        if (y < 0 || y >= copiedSpace[0].length) return false;
+        if (x < 0 || y < 0 || y >= copiedSpace[0].length || x >= copiedSpace.length) return false;
         if (copiedSpace[x][y] == 1)
         {
             isIsland = true;

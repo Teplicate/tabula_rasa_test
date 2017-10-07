@@ -10,7 +10,6 @@ public class Space
     private int [][] space;
     private int length;
     private int width;
-    private int counter;
 
     public Space(int length, int width)
     {
